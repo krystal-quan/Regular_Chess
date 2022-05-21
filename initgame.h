@@ -1,0 +1,19 @@
+#ifndef INITGAME_H
+#define INITGAME_H
+#include "VarAndFunc.h"
+
+
+void init()
+{
+    SDL_Init(SDL_INIT_EVERYTHING);
+    window= SDL_CreateWindow("Khung", SDL_WINDOWPOS_CENTERED,SDL_WINDOWPOS_CENTERED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+    renderer=SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
+    IMG_Init(IMG_INIT_PNG);
+    IMG_Init(IMG_INIT_JPG);
+    TTF_Init();
+    Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048);
+
+    SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1");
+}
+
+#endif // INITGAME_H

@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1652964037 source:d:\codeblock\khung\khung main\main.cpp
+	<iostream>
+	<SDL.h>
+	"DrawBoard.h"
+	"VarAndFunc.h"
+	"initgame.h"
+	"LoadMedia.h"
+	"gameLogic.h"
+
+1652669633 d:\codeblock\khung\khung main\drawboard.h
+	"Texture.h"
+	"Button.h"
+	"Timer.h"
+	"gameLogic.h"
+
+1652668016 d:\codeblock\khung\khung main\texture.h
+	"VarAndFunc.h"
+
+1652668106 d:\codeblock\khung\khung main\varandfunc.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<iostream>
+	<fstream>
+	<cmath>
+	<algorithm>
+	<cstdlib>
+	<deque>
+	<vector>
+	<string>
+	<sstream>
+
+1652632026 d:\codeblock\khung\khung main\initgame.h
+	"VarAndFunc.h"
+
+1652668676 d:\codeblock\khung\khung main\loadmedia.h
+	"Button.h"
+
+1652632025 d:\codeblock\khung\khung main\button.h
+	"Texture.h"
+
+1652669892 d:\codeblock\khung\khung main\gamelogic.h
+	"VarAndFunc.h"
+	"random.h"
+	"Timer.h"
+	"DrawBoard.h"
+
+1652580778 d:\codeblock\khung\khung main\random.h
+	<random>
+	<SDL.h>
+	<ctime>
+
+1652530877 d:\codeblock\khung\khung main\timer.h
+
